@@ -1,0 +1,8 @@
+Generated using the built-in image_gen tool.
+Use case: photorealistic-natural
+Asset type: square seamless tileable PBR base-color texture for a 3D vintage CRT television housing.
+Primary request: charcoal graphite molded ABS plastic typical of a 1990s CRT television, represented only as an edge-to-edge material texture. Fine stippled polymer grain, subtle age mottling, faint tiny scratches.
+Composition: flat orthographic material scan, uniform scale across entire square, seamless tiling on all four edges.
+Color palette: neutral medium gray graphite, deliberately light enough for a 3D material tint to darken it.
+Lighting: completely uniform flat illumination, pure diffuse albedo, no baked highlights or shadows, no light gradient.
+Constraints: exactly one square image. No television pictured, no objects, no text, no borders, no logos, no large damage, no perspective, no vignette.

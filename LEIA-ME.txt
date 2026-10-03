@@ -1,15 +1,7 @@
-PRAÇA DO CAJU
-
-Abra index.html com dois cliques. Não é necessário instalar nada nem ter internet.
-
-index.html — conteúdo da página
-style.css — identidade visual, animações e adaptação ao celular
-script.js — contagem regressiva e controle das animações
-assets/ — ilustrações PNG originais geradas por IA e salvas localmente
-
-A contagem termina em 20/10/2026 às 00h00 no fuso de Fortaleza (UTC−03:00).
-Após essa data, permanece em zero, sem revelar conteúdo adicional.
-A frase do teaser permanece exatamente: espere até 20/10...
-
-As ilustrações foram criadas com a ferramenta nativa de geração de imagens.
-Os prompts utilizados estão em assets/PROMPTS.txt.
+Abra Abrir.cmd para iniciar o site no navegador.
+Coloque sua música em assets/music.mp3. Clique na página uma vez para liberar o áudio caso o navegador bloqueie reprodução automática.
+Contagem: dias:horas:minutos:segundos até 20/10/2026 às 12:30 em Fortaleza (UTC-03:00). Ao chegar, permanece em zero.
+Modelo procedural: assets/tv.obj, com normais e coordenadas UV, acompanhado de tv.mtl e uv-layout.json. O site carrega esse OBJ real.
+Textura gerada por imagem: assets/tv-plastic.png. Materiais e luzes são calculados em tempo real; tela curvada com shader VHS e contador dinâmico.
+Para recriar o modelo: node generate-model.mjs.
+Biblioteca Three.js 0.180.0 incluída localmente. Nenhuma conexão à internet é necessária para visualizar.

@@ -1,0 +1,15 @@
+newmtl plastic
+Kd 0.25 0.25 0.25
+map_Kd tv-plastic.png
+
+newmtl trim
+Kd 0.04 0.04 0.04
+
+newmtl metal
+Kd 0.04 0.04 0.04
+
+newmtl rubber
+Kd 0.04 0.04 0.04
+
+newmtl screen
+Kd 0.04 0.04 0.04

@@ -1,0 +1,362 @@
+[
+  {
+    "object": "cabinet",
+    "material": "plastic",
+    "tile": 0
+  },
+  {
+    "object": "front_housing",
+    "material": "plastic",
+    "tile": 1
+  },
+  {
+    "object": "bezel",
+    "material": "trim",
+    "tile": 2
+  },
+  {
+    "object": "screen",
+    "material": "screen",
+    "tile": "dedicated screen UV"
+  },
+  {
+    "object": "lower_panel",
+    "material": "plastic",
+    "tile": 4
+  },
+  {
+    "object": "speaker_0",
+    "material": "rubber",
+    "tile": 5
+  },
+  {
+    "object": "speaker_1",
+    "material": "rubber",
+    "tile": 6
+  },
+  {
+    "object": "speaker_2",
+    "material": "rubber",
+    "tile": 7
+  },
+  {
+    "object": "speaker_3",
+    "material": "rubber",
+    "tile": 8
+  },
+  {
+    "object": "speaker_4",
+    "material": "rubber",
+    "tile": 9
+  },
+  {
+    "object": "speaker_5",
+    "material": "rubber",
+    "tile": 10
+  },
+  {
+    "object": "speaker_6",
+    "material": "rubber",
+    "tile": 11
+  },
+  {
+    "object": "speaker_7",
+    "material": "rubber",
+    "tile": 12
+  },
+  {
+    "object": "speaker_8",
+    "material": "rubber",
+    "tile": 13
+  },
+  {
+    "object": "speaker_9",
+    "material": "rubber",
+    "tile": 14
+  },
+  {
+    "object": "speaker_10",
+    "material": "rubber",
+    "tile": 15
+  },
+  {
+    "object": "speaker_11",
+    "material": "rubber",
+    "tile": 16
+  },
+  {
+    "object": "speaker_12",
+    "material": "rubber",
+    "tile": 17
+  },
+  {
+    "object": "speaker_13",
+    "material": "rubber",
+    "tile": 18
+  },
+  {
+    "object": "speaker_14",
+    "material": "rubber",
+    "tile": 19
+  },
+  {
+    "object": "speaker_15",
+    "material": "rubber",
+    "tile": 20
+  },
+  {
+    "object": "speaker_16",
+    "material": "rubber",
+    "tile": 21
+  },
+  {
+    "object": "speaker_17",
+    "material": "rubber",
+    "tile": 22
+  },
+  {
+    "object": "speaker_18",
+    "material": "rubber",
+    "tile": 23
+  },
+  {
+    "object": "speaker_19",
+    "material": "rubber",
+    "tile": 24
+  },
+  {
+    "object": "speaker_20",
+    "material": "rubber",
+    "tile": 25
+  },
+  {
+    "object": "speaker_21",
+    "material": "rubber",
+    "tile": 26
+  },
+  {
+    "object": "speaker_22",
+    "material": "rubber",
+    "tile": 27
+  },
+  {
+    "object": "speaker_23",
+    "material": "rubber",
+    "tile": 28
+  },
+  {
+    "object": "speaker_24",
+    "material": "rubber",
+    "tile": 29
+  },
+  {
+    "object": "speaker_25",
+    "material": "rubber",
+    "tile": 30
+  },
+  {
+    "object": "speaker_26",
+    "material": "rubber",
+    "tile": 31
+  },
+  {
+    "object": "speaker_27",
+    "material": "rubber",
+    "tile": 32
+  },
+  {
+    "object": "speaker_28",
+    "material": "rubber",
+    "tile": 33
+  },
+  {
+    "object": "speaker_29",
+    "material": "rubber",
+    "tile": 34
+  },
+  {
+    "object": "speaker_30",
+    "material": "rubber",
+    "tile": 35
+  },
+  {
+    "object": "speaker_31",
+    "material": "rubber",
+    "tile": 36
+  },
+  {
+    "object": "speaker_32",
+    "material": "rubber",
+    "tile": 37
+  },
+  {
+    "object": "speaker_33",
+    "material": "rubber",
+    "tile": 38
+  },
+  {
+    "object": "power_outer",
+    "material": "metal",
+    "tile": 39
+  },
+  {
+    "object": "power_button",
+    "material": "trim",
+    "tile": 40
+  },
+  {
+    "object": "button_0",
+    "material": "trim",
+    "tile": 41
+  },
+  {
+    "object": "button_1",
+    "material": "trim",
+    "tile": 42
+  },
+  {
+    "object": "button_2",
+    "material": "trim",
+    "tile": 43
+  },
+  {
+    "object": "foot",
+    "material": "rubber",
+    "tile": 44
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 45
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 46
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 47
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 48
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 49
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 50
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 51
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 52
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 53
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 54
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 55
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 56
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 57
+  },
+  {
+    "object": "foot",
+    "material": "rubber",
+    "tile": 58
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 59
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 60
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 61
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 62
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 63
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 64
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 65
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 66
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 67
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 68
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 69
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 70
+  },
+  {
+    "object": "vent",
+    "material": "rubber",
+    "tile": 71
+  }
+]
