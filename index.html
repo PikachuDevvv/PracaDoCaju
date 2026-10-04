@@ -1,18 +1,62 @@
+
 <!doctype html>
-<!-- Google tag (gtag.js) -->
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#000">
+<title>20.10</title>
+
+<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ELXS4SZ499"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-ELXS4SZ499');
 </script>
 
-<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000"><title>20.10</title>
-<style>*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000;color:white;font-family:Arial,sans-serif}canvas{display:block;width:100%;height:100%;outline:none}audio,[hidden]{display:none!important}#warning{position:fixed;inset:0;z-index:10;display:grid;place-items:center;background:#000;padding:24px}.notice{width:min(100%,460px);border:1px solid #383838;padding:32px}h1{font-size:23px;letter-spacing:.04em;margin:0 0 22px}p{font-size:16px;line-height:1.6;color:#ccc;margin:0 0 20px}button{font:inherit;font-size:14px;background:#fff;color:#000;border:1px solid #fff;padding:13px 18px;cursor:pointer}button:focus-visible{outline:2px solid #fff;outline-offset:5px}#enter{width:100%;margin-top:8px}#sound{width:100%;margin-bottom:8px;background:#080808;color:#fff;border-color:#555}#sound:disabled{color:#888;border-color:#333;cursor:default}#status{font-size:13px;margin:16px 0 0;color:#888}</style>
-<script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script></head><body>
-<canvas id="scene" tabindex="0" aria-label="Televisão com contagem regressiva" inert></canvas>
-<section id="warning" role="dialog" aria-modal="true" aria-labelledby="warning-title"><div class="notice"><h1 id="warning-title">AVISO DE FOTOSSENSIBILIDADE</h1><p>Este site contém flashes rápidos a cada 0,1 segundo, cores invertidas e tremores. Esses efeitos podem provocar crises em pessoas com epilepsia fotossensível.</p><p>Ao entrar, os efeitos acontecerão a cada 3 segundos. Os sons começam desligados e só podem ser ativados uma vez, neste aviso, antes de entrar.</p><button id="sound" type="button" aria-pressed="false">Ativar sons</button><button id="enter" type="button" disabled>Carregando…</button><p id="status" role="status">Preparando a TV.</p></div></section>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000;color:white;font-family:Arial,sans-serif}
+canvas{display:block;width:100%;height:100%;outline:none}
+audio,[hidden]{display:none!important}
+#warning{position:fixed;inset:0;z-index:10;display:grid;place-items:center;background:#000;padding:24px}
+.notice{width:min(100%,460px);border:1px solid #383838;padding:32px}
+h1{font-size:23px;letter-spacing:.04em;margin:0 0 22px}
+p{font-size:16px;line-height:1.6;color:#ccc;margin:0 0 20px}
+button{font:inherit;font-size:14px;background:#fff;color:#000;border:1px solid #fff;padding:13px 18px;cursor:pointer}
+button:focus-visible{outline:2px solid #fff;outline-offset:5px}
+#enter{width:100%;margin-top:8px}
+#sound{width:100%;margin-bottom:8px;background:#080808;color:#fff;border-color:#555}
+#sound:disabled{color:#888;border-color:#333;cursor:default}
+#status{font-size:13px;margin:16px 0 0;color:#888}
+</style>
 
-<audio id="music" src="assets/music.mp3" loop preload="none"></audio><script type="module" src="app.js"></script></body></html>
+<script type="importmap">
+{"imports":{"three":"./vendor/three.module.js"}}
+</script>
+</head>
+
+<body>
+<canvas id="scene" tabindex="0" aria-label="Televisão com contagem regressiva" inert></canvas>
+
+<section id="warning" role="dialog" aria-modal="true" aria-labelledby="warning-title">
+  <div class="notice">
+    <h1 id="warning-title">AVISO DE FOTOSSENSIBILIDADE</h1>
+
+    <p>Este site contém flashes rápidos a cada 0,1 segundo, cores invertidas e tremores. Esses efeitos podem provocar crises em pessoas com epilepsia fotossensível.</p>
+
+    <p>Ao entrar, os efeitos acontecerão a cada 3 segundos. Os sons começam desligados e só podem ser ativados uma vez, neste aviso, antes de entrar.</p>
+
+    <button id="sound" type="button" aria-pressed="false">Ativar sons</button>
+    <button id="enter" type="button" disabled>Carregando…</button>
+
+    <p id="status" role="status">Preparando a TV.</p>
+  </div>
+</section>
+
+<audio id="music" src="assets/music.mp3" loop preload="none"></audio>
+<script type="module" src="app.js"></script>
+</body>
+</html>
